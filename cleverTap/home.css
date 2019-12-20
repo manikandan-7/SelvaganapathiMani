@@ -1,0 +1,376 @@
+
+.header{
+    display: inline-block;
+}
+.center{
+    box-sizing: border-box;
+    margin: 0 5px;
+    padding: 0 2%;
+}
+.line{
+    display: flex;
+}
+.logo{
+    background-image: url("https://clevertap.com/wp-content/themes/clevertap2019/assets/images-2019/Logo.svg");
+    height: 35px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 135px;
+    margin-top: 25px;
+}
+.nav{
+    display:inline-block;
+   margin-top: 2px;
+
+}
+.menu{
+    display: inline-block;
+    letter-spacing: normal;
+    line-height: 39px;
+}
+.menutext{
+    font-family: proxima-nova,Arial,sans-serif;
+    color: black;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 39px;
+    padding-left: 30px;
+    padding-right: 5px;
+    font-size: 15px;
+}
+.dropdown::after{
+    content: '';
+    position: absolute;
+    top:40px;
+    border: solid #010101;
+    border-width: 0 1.5px 1.5px 0;
+    display: inline-block;
+    padding: 2.5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.signin{
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.auth{
+    display: inline-block;
+    font-family: proxima-nova,Arial,sans-serif;
+    margin-top: 5px;
+    margin-right: 2px;
+
+}
+.in{
+    color: #007dff;
+    letter-spacing: normal;
+}
+.demo{
+    color: #007dff;
+    background-color: #fff;
+    border: 1px solid #007dff;
+    padding: 5px 10px;
+    letter-spacing: normal;
+}
+
+.main{
+    position: relative;
+    height: 385px;
+    padding: 35px 0px 35px 45px;
+    background: #f5f4f9;
+    top: 20px;
+    overflow: hidden;
+    border-bottom-right-radius: 90px;
+    font-family: proxima-nova,Arial,sans-serif;
+    display: flex;
+    
+}
+
+.maintext{
+    float: left;
+    width: 50%;
+    padding-right: 25px;
+}
+.mainimage{
+    float: left;
+    width: 50%;
+}
+.maintexttitle{
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 40px;
+    font-weight: 901;
+    text-align: left;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+.maintextsubtext{
+    max-width: 580px;
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.mainbuttontext{
+    display: inline-block;
+    line-height: 2.4;
+    padding: 0px 25px;
+    background: #007dff;
+    border-radius: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    border: 1px solid #007dff;
+    transition: all .2s ease;
+    z-index: 1;
+}
+.mainimageright{
+    width: 100%;
+    z-index: 10;
+    position: relative;
+}
+.mainanimeimage{
+    position: absolute;
+    top: -80px;
+    right: -60px;
+  
+}
+.imageone{
+    animation: wave 120s linear infinite;
+}
+
+@keyframes wave{
+    from {transform: rotate(360deg);}
+  to {transform: rotate(0deg);}
+}
+.circul{
+    position: absolute;
+    border-radius: 50%;
+    right: 5%;
+}
+.one{
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+    background: #e7608d;
+    top: 14%;
+}
+.two{
+    background: #f8938a;
+    z-index: 3;
+    width: 100px;
+    height: 100px;
+    min-width: auto;
+    min-height: auto;
+    top: 30%;
+}
+.three{
+    background: #50e3c1;
+    z-index: 3;
+    top: 52%;
+    width: 45px;
+    height: 45px;
+    right: 15%;
+    animation-delay: 2s;
+}
+
+.list{
+    overflow: scroll;
+    overflow-y: hidden;
+    position: relative;
+    top: 60px;
+    display:flex;
+    padding-top: 0px;
+}
+.sublist{
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none !important;
+    border: 1px solid #dedede;
+    margin: 5px 20px 5px 0;
+    min-width: 190px;
+    text-align: left;
+    vertical-align: top;
+    height: 175px;
+    padding-left: 25px;
+}
+.submain{
+    display:flex;
+    margin-top: 100px;
+    width: 100%;
+}
+.submaintext{
+    max-width: 500px;
+}
+.submaintitle{
+    color: #000;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: bold;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px 0 15px 0;
+}
+.submainsubtext{
+    text-align: left;
+    color: #000;
+    font-size: 17px;
+    line-height: 1.6;
+    max-width: 840px;
+    margin: 20px auto 0 auto;
+}
+.submainimage{
+    max-width: 90%;
+    padding-left: 40px;
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+.subimage{
+    width: 100%;
+}
+.submaincolor{
+    position: relative;
+    height: auto;
+    background: #f5f4f9;
+    overflow: hidden;
+    border-bottom-right-radius: 90px;
+    font-family: proxima-nova,Arial,sans-serif;
+    display: flex;   
+}
+.submaintextright{
+    margin-left: 70px;
+    padding: 90px;
+}
+.textone{
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    color: black;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.texttwo{
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.textthree{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: normal;
+    letter-spacing: 1px;
+}   
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.viewtext{
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #007dff;
+}
+.maincompanylogo{
+    display: flex;
+    clear: both;
+    margin-top: 75px;
+    overflow: hidden;
+}
+.companylogo{
+    width: 250px;
+}
+
+/* icon */
+
+.st13 {
+    fill: none;
+    stroke: #E7608E;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.icon{
+    width: 42px;
+    height: 110px;
+    display: block;
+}
+.banner{
+    display: flex;
+  
+}
+.topbanner{
+    margin-left: 155px;
+    margin-top: 60px;
+}
+.left{
+    padding-right: 155px;
+    line-height: 1.6;
+}
+.leftside{
+    border-radius: 64.35px 0 0 0;
+    background-color: #E7608E;
+    box-shadow: 18px 18px 43px 0 rgba(80,79,79,0.5);
+    padding: 35px;
+    color: white;
+    font-size: 20px;
+    height: 135px;
+    margin-top: 25px;
+}
+.rightside{
+    background: #F7948A;
+    padding: 60px 25px 25px 35px;
+    box-shadow: 18px 18px 43px 0 rgba(80,79,79,0.5);
+    border-radius: 0 64.35px 0 0;
+    color: white;
+    font-size: 20px;
+    height: 145px;
+}
+.profile{
+    border-radius: 30px;
+}
+.profiletext{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.casestudy{
+    margin: 35px;
+}
+.card{
+    width: 100%;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: none;
+    border: 1px solid #d1daeb;
+    position: relative;
+    margin-right: 15px;
+}
+.cardtext1{
+    background-color: #0096EA;
+    color: white;
+}
+.cardtext2{
+    font-size: 20px;
+}
+.cardtext3{
+    display: flex;
+}
+.maincard{
+ display: flex;    
+ margin-top: 45px;
+}
+.cardtwo{
+    padding: 20px;
+}
+.cardtext{ 
+    margin-left: 20px;
+}
