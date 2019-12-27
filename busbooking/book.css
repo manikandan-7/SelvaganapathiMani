@@ -1,0 +1,156 @@
+li{
+    list-style: none;
+    margin-left: 1%;
+}
+#div2,#div6,#preview{
+    display: none;
+}
+.allocation{
+    cursor: not-allowed;
+    background-color: gray;
+}
+.head{
+    height: 80px;
+    display: flex;
+    box-shadow: 1px 2px 18px slategrey;
+
+}
+.headtext{
+    text-transform: uppercase;
+    color: green;
+}
+.feed{
+    margin-left: 65%;
+    text-decoration: none;
+    margin-top: 28px;
+    border: 2px solid;
+    width: 140px;
+    font-size: 25px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.titlebus{
+    box-shadow: 1px 2px 18px slategrey;
+    width: 50%;
+    margin-left: 25%;
+}
+.booking{
+    box-shadow: 1px 2px 18px slategrey;
+    display: flex;
+    padding: 20px;
+    margin-top: 30px;
+}
+.search{
+    margin-left: 25%;
+}
+.titlehead{
+    margin-left: 33%;
+    color: brown;
+}
+.searchbutton{
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 20px;
+    height: 37px;
+    color: green;
+    margin-top: -4px;
+}
+input{
+    width: 100px;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    height: 30px;
+}
+.div{
+    width: 50%;
+    box-shadow: 1px 2px 18px;
+    margin-left: 25%;
+    height: 50%;
+    margin-top: 25px;
+    padding-top: 1px;
+    background-image: url("./image/bus.png");
+    background-repeat: no-repeat;
+    background-position-x: 60px;
+}
+.nextdiv{
+    width: 50%;
+    box-shadow: 1px 2px 18px;
+    margin-left: 25%;
+    height: 50%;
+    margin-top: 25px;
+    padding-top: 1px;
+}
+#p{
+    width: 50%;
+    border: 1px solid green;
+    border-radius: 20px;
+    text-align: center;
+    height: 25px;
+    color: green;
+    text-transform: capitalize;
+    margin-left: 25%;
+    background-color: white;
+}
+#p:hover{
+    background-color: aliceblue;
+}
+table,td,tr{
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+ }
+ #div3{
+    background-color: white;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 20px;
+ }
+ .selectdetails{
+    margin-top: 5%;
+    margin-left: 30%;
+ }
+ select{
+    width: 100px;
+    border: none;
+    height: 30px;
+    color: white;
+    background-color: cadetblue;
+ }
+ .button{
+     display: flex;
+     margin-top: 5%;
+ }
+ .nextback{
+    width: 50%;
+    height: 40px;
+   margin: 10px;
+ }
+.next{
+     background-color: greenyellow;
+ }
+ .back{
+     background-color: red;
+ }
+ .nextinput{
+    margin-left: 30%;
+    width: 40%;
+    margin-bottom: 20px;
+ }
+ #div6{
+    padding-top: 10px;
+ }
+ .pre{
+     padding-left: 40px;
+ }
+ .conform{
+    background-color: greenyellow;
+    color: white;
+    height: 40px;
+    margin-left: 25%;
+    width: 45%;
+    margin-top: 40px;
+ }
