@@ -1,0 +1,58 @@
+.reser{
+    width: 70%;
+
+    margin-left: 20%;
+}
+.reservation{
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.reserdetails{
+    display: flex;
+    width: 100%;
+}
+td{
+    text-align: left;
+}
+th{
+    text-align: left;
+}
+
+
+.ok{
+    background-color: #adffad;
+    color: black;
+
+}
+.namecancel{
+    background-color: #e8e4e452;
+    color: black;
+
+}
+.tablerow{
+    line-height: 40px;
+}
+.buttonok{
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.buttoncancel{
+    width: 55%;
+    height: 30px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.okcolor{
+    background-color: #5eb95e;
+    cursor: pointer;
+   
+}
+.cancel{
+    background-color: #f35b5b;
+    cursor: pointer;
+}

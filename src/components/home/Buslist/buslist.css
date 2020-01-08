@@ -1,0 +1,47 @@
+.list{
+    background-color: aliceblue;
+    width: 90%;
+    border-radius: 25px;
+    height: 80px;
+}
+.buslist{
+    width:50%;
+    padding-left: 100px;
+}
+.listtitle{
+    padding-left: 30%;
+}
+.list1{
+    display: flex;
+    height: 80px;
+}
+.texttitle{
+width: 45%;
+}
+.count{
+    width: 20%;
+    text-align: center;
+    font-size: 30px;
+}
+.buttonbook{
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 10px;
+    background-color: #912eff;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.endhur{
+    width: 15%;
+}
+.listtextaline{
+    margin: 5px;
+}
+.available{
+    text-align: center;
+    padding-top: 20px;
+}

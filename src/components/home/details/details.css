@@ -1,0 +1,19 @@
+.grid{
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.details{
+    width: 70%;
+    margin-top: 30px;
+}
+.detailsform{
+    padding-left: 20%;
+}
+.detailscolum{
+    margin-right: 10%;
+    width: 100%;
+}
+.detailsbutton{
+    margin-top: 50px;
+}

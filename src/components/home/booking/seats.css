@@ -1,0 +1,45 @@
+.table{
+    width: 70%;
+    margin-left: 15%;
+    border: 1px solid;
+    border-radius: 20px;
+}
+td{
+    fill: white;
+    stroke: black;
+    cursor: pointer;
+}
+
+.seats{
+    width: 70%;
+    margin-top: 30px;
+}
+.point{
+    display: flex;
+    padding-left: 15%;
+}
+.bottom{
+    margin-bottom:40px;
+}
+.pick{
+    width: 50%;
+}
+select{
+    width: 35%;
+    height: 30px;
+    background-color: #7269ff;
+    color: white;
+    font-size: 15px;
+}
+.next{
+    margin-left: 30%;
+    background-color: #caf1d1;
+}
+.nb{
+    width: 25%;
+    height: 55px;
+    border: none;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 5px;
+}
