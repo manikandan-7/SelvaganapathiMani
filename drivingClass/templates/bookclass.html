@@ -1,0 +1,42 @@
+{%extends 'base.html'%}
+{% load static %}
+{%block bookclass%}
+<section class="bookclass">
+    <div class="classbooklist">
+        <form action="" method="POST">
+            {% csrf_token %}
+            <div class="bookform">
+                <label>Name</label>
+                <input value={{user.username}} name="name" required />
+                <label>Phone Number</label>
+                <input type="number" pattern='[0-9]{10}' name="phone" required />
+                <label>Car type</label>
+                <div>
+                    {%if data.cartype%}
+                    <input type="radio" value='True' name="cartype" required />
+                    <label>Premium</label>
+                    {%endif%}
+                    <input type="radio" name="cartype" value="False" required />
+                    <label>Standard</label>
+                </div>
+                {% if user.is_authenticated %}
+                <input type='submit' value="Book" class="bookbutton" required />
+                {%else%}
+                <a href="/signup">signin or signup</a>
+                {%endif%}
+            </div>
+        </form>
+        <div class="bookprice">
+            <label>Coupon</label>
+            <div>
+                
+            <input type='text' name="coupon" id="offer" />
+            <input type="button" onclick="price(d={'data':{{coupon}}})" value="Apply" class="bookbutton">
+            </div>
+            <h3>Price</h3>
+            <h4 id=price value='{{data.price}}' name="amount">{{data.price}}</h4>
+        </div>
+
+    </div>
+</section>
+{%endblock%}

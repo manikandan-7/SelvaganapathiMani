@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block addclass %}
+<section class="drivingclass">
+    <form action="" method="POST">
+        {% csrf_token %}
+        
+        <div class="classgrid">
+            <div>
+                <h3>Class Name</h3>
+                <input type="text" name="classname"  required/>
+            </div>
+            <div>
+                <h3> Weakend</h3>
+                <div>
+                    <input type="radio" name="weekend" value="True" required/>
+                    <h5>yes</h5>
+                    <input type="radio" name="weekend" value="False" required/>
+                    <h5>no</h5>
+                </div>
+            </div>
+            <div>
+                <h3>Days</h3>
+                <input type="number" name="day" required/>
+            </div>
+            <div>
+                <h3>Instructor</h3>
+                <div>
+                    <input type="radio" name="gender" value="male" required/>
+                    <h5>Male</h5>
+                    <input type="radio" name="gender" value="female" required/>
+                    <h5>Female</h5>
+                </div>
+            </div>
+        </div>
+        <div class="classgrid">
+            <div>
+                <h3>Price</h3>
+                <input type="number" name="price" required/>
+            </div>
+            <div>
+                <h3>type</h3>
+                <div>
+                    <input type="Radio" value='True' name="cartype" required/>
+                    <h5>premium</h5>
+                    <input type="Radio" value="False" name='cartype' required/>
+                    <h5>standard</h5>
+                </div>
+            </div>
+            <div>
+                <h3>Starting Date</h3>
+                <input type="date" name="date" required/>
+            </div>
+            <div>
+                <h3>slot size</h3>
+                <input type="number" name="slot" required/>
+            </div>
+        </div>
+        <button type="submit">Add Class</button>
+    </form>
+</section>
+{%endblock%}
