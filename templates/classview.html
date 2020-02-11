@@ -1,0 +1,35 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block  viewclass%}
+<section class="viewclass">
+    <div class="listclass">
+    {%for item in data%}
+     <form action="{{item.id}}" method="GET">
+         <div class="price">
+             <h4>Basic</h4>
+             <h2>Rs{{item.price}}</h2>
+             <h4>{{item.date}}</h4>
+         </div>
+         <div class="details">
+             <ul>
+                 <li><h4><span>{{item.classname.days}}</span> days</h4></li>
+                {%if item.classname.weekday%}
+                <li><h4>weekdays and weekend available</h4><li>
+                {%else%}
+                <li><h4>Only weekdays</h4></li>
+                {%endif%}
+                <li><h4>{{item.classname.instructor}} instructor</h4></li>
+                {%if item.cartype%}
+                <li><h4><span class="standard">premium </span>and <span class="standard">standard</span> type cars available</h4><li>
+                {%else%}
+                <li><h4><span class="standard">standard</span> type cars only available</h4></li>
+                {%endif%}
+                <li><h4>slot available <span>{{item.slot}}!!</span></h4></li>
+                <li><h4><input type="submit" value="Book Slot"/></h4></li>
+            </ul>
+         </div>
+     </form> 
+    {%endfor%}
+    </div>
+</section>
+{%endblock%}

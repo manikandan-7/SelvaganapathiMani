@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", Sans-serif;
+}
+li{
+    list-style: none;
+}
+button,input{
+    outline: none;
+}
+input{
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.nav{
+    position: fixed;
+    display: block;
+    top: 10%;
+    padding: 30px;
+    max-width: 45px;
+    z-index: 9999;
+}
+.nav a{
+    position: relative;
+    
+}
+.nav img{
+    width: 70%;
+    margin-top: 55px;
+    border: 1px solid #f3f3f3;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 5px;
+}
+.active{
+    box-shadow:1px 2px 18px seashell;
+}
+.nav img:hover{
+    background-color: slateblue;
+}
+.slide{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    background-color: #003a6d;
+    color: white;
+    text-align: justify;    
+}
+.slide h1{
+    height: 15vw;
+    font-size: 3vw;
+    color: #ff900a;
+}
+.slide div{
+    width: 50%;
+    padding-left: 7vw;
+    padding-top: 1vw;
+}
+.slide h2{
+    font-size: 1.8vw;
+}
+.slide button{
+    background-color: #29292914;
+    color: white;
+    width: 20vw;
+    font-size: 2vw;
+    position: relative;
+    cursor: pointer;
+    letter-spacing: 2px;
+    height: 5vw;
+    border: 1px solid #ffffff59;
+}
+.slide img{
+    width: 100%;
+}
+
+.slide button:hover{
+    background-color:rgba(0, 78, 253, 0.19);
+    box-shadow: -2px -2px 18px #ffffff, 2px 2px 18px white;
+}
+.slide p ,.slide h1,.slide h2{
+    padding: 1.5vw;
+}
+.slide p{
+    font-family: serif;
+    font-size: 1.2vw;
+}

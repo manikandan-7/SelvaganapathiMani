@@ -1,0 +1,60 @@
+.drivingclass {
+  height: 100vh;
+  width: 100%;
+  background-color: #003a6d;
+  color: white;
+  text-align: justify;
+}
+.drivingclass h1{
+    color: coral;
+    position: relative;
+    top: 5%;
+    left: 25%;
+    width: 50%;
+    font-size: 30px;
+}
+.drivingclass form{
+    position: relative;
+    top: 10%;
+}
+.classgrid{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 15%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.classgrid,.classgrid div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+}
+.classgrid h3{
+    font-size: 1.2vw;
+}
+.drivingclass button{
+    width: 30vw;
+    height: 3vw;
+    position: relative;
+    top: 90px;
+    background-color: transparent;
+    left: 35%;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2vw;
+    
+}
+.drivingclass button:hover{
+    background-color: #0374c159;
+}   
+.drivingclass input:hover,.drivingclass button:hover{
+  box-shadow: -2px -2px 18px #cee6ffa8, 2px 2px 18px #9aa1f385;
+    
+}
+.drivingclass input{
+    font-size: medium;
+    color: darkblue;
+}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block login %}
+<div class="signup">
+    <form action="" method="POST">
+        {% csrf_token %}
+        <label>Name</label>
+        <input type="text" name="name" required/>
+        <label>E-mail</label>
+        <input type="email"name="email" required/>
+        <label>Password</label>
+        <input type="password" name="password" required/>
+        <input type="submit" value="submit" class="button"/>
+        <h4>Already Account have <a href="/login">Login !</a></h4>
+    </form>
+</div>
+{%endblock%}
